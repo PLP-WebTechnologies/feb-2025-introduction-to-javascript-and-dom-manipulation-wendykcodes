@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Page</title>
+</head>
+<body>
+
+  <header>
+    <h1 id="title">Welcome!</h1>
+    <p id="hover-paragraph">This is just a demo page. Hover around me to see something cool</p>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p id="message">This is a simple paragraph.</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+
+    <section id="dynamic-section">
+      <!-- New element will appear here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wendy Kalu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
